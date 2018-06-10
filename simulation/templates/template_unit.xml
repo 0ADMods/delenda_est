@@ -20,8 +20,8 @@
   <Decay>
     <Active>false</Active>
 	<SinkingAnim>false</SinkingAnim>
-    <DelayTime>80.0</DelayTime>
-    <SinkRate>0.01</SinkRate>
+    <DelayTime>60.0</DelayTime>
+    <SinkRate>0.02</SinkRate>
     <SinkAccel>0.0</SinkAccel>
   </Decay>
   <Footprint>
@@ -47,7 +47,6 @@
     </Formations>
     <Undeletable>false</Undeletable>
   </Identity>
-  <Looter/>
   <Minimap>
     <Type>unit</Type>
   </Minimap>
@@ -60,6 +59,7 @@
     <BlockConstruction>true</BlockConstruction>
     <DisableBlockMovement>false</DisableBlockMovement>
     <DisableBlockPathfinding>false</DisableBlockPathfinding>
+    <DeleteUponConstruction>false</DeleteUponConstruction>
   </Obstruction>
   <OverlayRenderer/>
   <RangeOverlayManager/>
@@ -74,7 +74,6 @@
       <food>20</food>
       <wood>20</wood>
       <stone>20</stone>
-      <metal>20</metal>
       <metal>20</metal>
       <glory>1</glory>
     </Capacities>
@@ -99,7 +98,6 @@
     <HeightOffset>5.0</HeightOffset>
   </StatusBars>
   <UnitAI>
-    <AlertReactiveLevel>2</AlertReactiveLevel>
     <DefaultStance>aggressive</DefaultStance>
     <FleeDistance>12.0</FleeDistance>
     <FormationController>false</FormationController>

@@ -55,11 +55,13 @@
     <Entities datatype="tokens">
       units/{civ}_champion_infantry_archer
       units/{civ}_champion_cavalry
-      units/{civ}_hero_piye
+      units/{civ}_hero_nastasen
+      units/{civ}_hero_arakamani
       units/{civ}_hero_amanirenas
       units/{civ}_hero_amanitore
     </Entities>
     <Technologies datatype="tokens">
+      kushites/special_warrior_queen
     </Technologies>
   </ProductionQueue>
   <VisualActor>

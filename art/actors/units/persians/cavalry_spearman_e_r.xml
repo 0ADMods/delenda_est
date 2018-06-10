@@ -8,7 +8,7 @@
         <prop actor="props/units/heads/new/head_pers_a.xml" attachpoint="head"/>
         <prop actor="props/units/heads/pers_cav_crest.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_lance_persian.xml" attachpoint="weapon_R"/>
-        <prop actor="props/units/cape_cav_animated_pers_spearman_e.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/rider/pers_spearman_e.xml" attachpoint="root"/>
       </props>
       <textures>
 	    <texture file="skeletal/pers_scale_armband_spec.png" name="specTex"/>
@@ -32,14 +32,9 @@
   </group>
   <group>
     <variant frequency="100" name="Idle"/>
-    <variant file="biped/rider_promotion.xml" name="promotion"/>
-    <variant file="biped/attack_slaughter_spear_cavalry.xml" name="attack_slaughter"/>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/units/shuttle_meat_male_R.xml" attachpoint="weapon_R"/>
-        <prop attachpoint="shield"/>
-      </props>
-    </variant>
+    <variant file="biped/rider/promotion_shield.xml"/>
+    <variant file="biped/rider/attack_slaughter_shield.xml" name="attack_slaughter"/>
+    <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <material>player_trans_spec.xml</material>
 </actor>

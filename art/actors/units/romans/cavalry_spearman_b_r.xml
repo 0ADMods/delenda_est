@@ -9,7 +9,7 @@
         <prop actor="props/units/heads/rome_monte_simple.xml" attachpoint="helmet"/>
         <prop actor="props/units/weapons/spear_lance_cavalry_reverse.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/rome_parma_b.xml" attachpoint="shield"/>
-        <prop actor="props/units/capes/rider/spearman_relax_shield.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/rider/spearman_ready_shield.xml" attachpoint="root"/>
       </props>
       <textures>
         <texture file="skeletal/rome_csp_b.dds" name="baseTex"/>
@@ -17,14 +17,14 @@
     </variant>
   </group>
   <group>
-    <variant file="biped/base_cavalry_spearman_relax_shield.xml"/>
+    <variant file="biped/base_cavalry_spearman_ready_shield.xml"/>
     <variant file="biped/rider/carry_meat.xml"/>
   </group>
   <group>
     <variant frequency="1" name="Idle"/>
     <variant file="biped/rider/attack_slaughter_shield_rome.xml"/>
     <variant file="biped/rider/promotion_shield.xml" />
-    <variant file="biped/rider/gather_meat_rome.xml"/>
+    <variant file="biped/gather_meat.xml"/>
     <variant file="biped/rider/death.xml"/>
   </group>
   <material>player_trans.xml</material>

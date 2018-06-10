@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="319.379" y="95.0025" z="276.648"/>
+		<Position x="312.045" y="105.117" z="430.362"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "Southeast of Egypt near Kush lies a semi-arid region today known as the Butana Steppe.",
-  "GameType": "conquest_structures",
   "Keywords": [
     "new"
   ],
@@ -67,7 +66,10 @@
     }
   ],
   "Preview": "butana_steppe_2.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -1038,7 +1040,7 @@
 		<Entity uid="226">
 			<Template>gaia/flora_tree_baobab</Template>
 			<Player>0</Player>
-			<Position x="571.19898" z="138.7667"/>
+			<Position x="571.1673" z="138.89484"/>
 			<Orientation y="-1.27314"/>
 			<Actor seed="14164"/>
 		</Entity>
@@ -2414,7 +2416,7 @@
 			<Template>gaia/geology_stonemine_savanna_quarry</Template>
 			<Player>0</Player>
 			<Position x="253.7891" z="458.26014"/>
-			<Orientation y="2.35621"/>
+			<Orientation y="2.36944"/>
 			<Actor seed="4974"/>
 		</Entity>
 		<Entity uid="479">
@@ -2529,34 +2531,6 @@
 			<Orientation y="0.90046"/>
 			<Actor seed="18392"/>
 		</Entity>
-		<Entity uid="497">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>1</Player>
-			<Position x="249.77891" z="366.16596"/>
-			<Orientation y="-2.66646"/>
-			<Actor seed="16176"/>
-		</Entity>
-		<Entity uid="498">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>1</Player>
-			<Position x="252.98041" z="362.79603"/>
-			<Orientation y="-2.25383"/>
-			<Actor seed="39248"/>
-		</Entity>
-		<Entity uid="499">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>1</Player>
-			<Position x="255.719" z="359.81803"/>
-			<Orientation y="-2.31708"/>
-			<Actor seed="55258"/>
-		</Entity>
-		<Entity uid="500">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>1</Player>
-			<Position x="258.46732" z="357.41657"/>
-			<Orientation y="-2.38753"/>
-			<Actor seed="57430"/>
-		</Entity>
 		<Entity uid="501">
 			<Template>skirmish/units/default_cavalry</Template>
 			<Player>1</Player>
@@ -2598,34 +2572,6 @@
 			<Position x="813.2865" z="452.16608"/>
 			<Orientation y="0.90047"/>
 			<Actor seed="18392"/>
-		</Entity>
-		<Entity uid="507">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>2</Player>
-			<Position x="790.27503" z="412.58423"/>
-			<Orientation y="-2.38753"/>
-			<Actor seed="57430"/>
-		</Entity>
-		<Entity uid="508">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>2</Player>
-			<Position x="787.52668" z="414.9857"/>
-			<Orientation y="-2.31708"/>
-			<Actor seed="55258"/>
-		</Entity>
-		<Entity uid="509">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>2</Player>
-			<Position x="784.7881" z="417.96369"/>
-			<Orientation y="-2.25383"/>
-			<Actor seed="39248"/>
-		</Entity>
-		<Entity uid="510">
-			<Template>skirmish/units/default_support_citizen_female</Template>
-			<Player>2</Player>
-			<Position x="781.58661" z="421.33362"/>
-			<Orientation y="-2.66646"/>
-			<Actor seed="16176"/>
 		</Entity>
 		<Entity uid="511">
 			<Template>skirmish/units/default_cavalry</Template>
@@ -3942,33 +3888,6 @@
 			<Orientation y="-2.21413"/>
 			<Actor seed="59970"/>
 		</Entity>
-		<Entity uid="732">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="275.0811" z="556.19214"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8152"/>
-		</Entity>
-		<Entity uid="733">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="771.70551" z="272.47654"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="58796"/>
-		</Entity>
-		<Entity uid="734">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="592.8647" z="871.10907"/>
-			<Orientation y="2.35621"/>
-		</Entity>
-		<Entity uid="735">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="483.1884" z="118.33333"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="21196"/>
-		</Entity>
 		<Entity uid="736">
 			<Template>units/kush_merc_infantry_2</Template>
 			<Player>0</Player>
@@ -4039,76 +3958,6 @@
 			<Orientation y="-1.12702"/>
 			<Actor seed="3338"/>
 		</Entity>
-		<Entity uid="746">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="582.649" z="858.01233"/>
-			<Orientation y="-2.46271"/>
-			<Actor seed="59918"/>
-		</Entity>
-		<Entity uid="748">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="583.3155" z="850.6963"/>
-			<Orientation y="1.26946"/>
-			<Actor seed="28768"/>
-		</Entity>
-		<Entity uid="749">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="587.8675" z="852.90015"/>
-			<Orientation y="2.98121"/>
-			<Actor seed="50012"/>
-		</Entity>
-		<Entity uid="750">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="590.01185" z="848.4903"/>
-			<Orientation y="-2.21904"/>
-			<Actor seed="11710"/>
-		</Entity>
-		<Entity uid="752">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="585.0807" z="852.80054"/>
-			<Orientation y="-1.57081"/>
-			<Actor seed="17172"/>
-		</Entity>
-		<Entity uid="753">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="577.60663" z="857.78278"/>
-			<Orientation y="-2.36008"/>
-			<Actor seed="51910"/>
-		</Entity>
-		<Entity uid="754">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="576.19459" z="863.60285"/>
-			<Orientation y="-2.22847"/>
-			<Actor seed="17792"/>
-		</Entity>
-		<Entity uid="755">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="572.74646" z="867.18842"/>
-			<Orientation y="-2.74695"/>
-			<Actor seed="58686"/>
-		</Entity>
-		<Entity uid="756">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="593.53034" z="850.42157"/>
-			<Orientation y="2.55291"/>
-			<Actor seed="34338"/>
-		</Entity>
-		<Entity uid="757">
-			<Template>units/kush_merc_infantry_2</Template>
-			<Player>0</Player>
-			<Position x="597.65845" z="853.00007"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="37746"/>
-		</Entity>
 		<Entity uid="758">
 			<Template>units/kush_merc_infantry_1</Template>
 			<Player>0</Player>
@@ -4175,8 +4024,8 @@
 		<Entity uid="767">
 			<Template>units/kush_merc_infantry_1</Template>
 			<Player>0</Player>
-			<Position x="755.0495" z="264.2836"/>
-			<Orientation y="-1.88842"/>
+			<Position x="755.12958" z="263.28898"/>
+			<Orientation y="-3.74659"/>
 			<Actor seed="38640"/>
 		</Entity>
 		<Entity uid="768">
@@ -4941,7 +4790,7 @@
 		<Entity uid="880">
 			<Template>gaia/treasure/food_persian_big</Template>
 			<Player>0</Player>
-			<Position x="251.13852" z="566.21631"/>
+			<Position x="242.06959" z="572.5984"/>
 			<Orientation y="1.15066"/>
 			<Actor seed="33808"/>
 		</Entity>
@@ -10566,13 +10415,13 @@
 		</Entity>
 		<Entity uid="1834">
 			<Template>actor|props/flora/shrub_tropic_plant_b.xml</Template>
-			<Position x="608.95978" z="874.84491"/>
+			<Position x="574.41126" z="870.99982"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1414"/>
 		</Entity>
 		<Entity uid="1835">
 			<Template>actor|props/flora/shrub_tropic_plant_b.xml</Template>
-			<Position x="608.96338" z="872.4206"/>
+			<Position x="575.73725" z="866.32837"/>
 			<Orientation y="2.49541"/>
 			<Actor seed="23468"/>
 		</Entity>
@@ -13980,6 +13829,139 @@
 			<Position x="740.32551" z="435.9083"/>
 			<Orientation y="-5.54548"/>
 			<Actor seed="33406"/>
+		</Entity>
+		<Entity uid="2403">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>1</Player>
+			<Position x="250.43442" z="369.46381"/>
+			<Orientation y="-2.53531"/>
+			<Actor seed="20652"/>
+		</Entity>
+		<Entity uid="2404">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>1</Player>
+			<Position x="254.66803" z="365.03232"/>
+			<Orientation y="-2.37021"/>
+			<Actor seed="52482"/>
+		</Entity>
+		<Entity uid="2405">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>1</Player>
+			<Position x="258.4705" z="361.10758"/>
+			<Orientation y="-2.43348"/>
+			<Actor seed="9910"/>
+		</Entity>
+		<Entity uid="2406">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>1</Player>
+			<Position x="262.57367" z="357.39463"/>
+			<Orientation y="-2.27395"/>
+			<Actor seed="19722"/>
+		</Entity>
+		<Entity uid="2407">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>2</Player>
+			<Position x="794.03046" z="409.30298"/>
+			<Orientation y="-2.27396"/>
+			<Actor seed="19722"/>
+		</Entity>
+		<Entity uid="2408">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>2</Player>
+			<Position x="789.92725" z="413.01594"/>
+			<Orientation y="-2.4335"/>
+			<Actor seed="9910"/>
+		</Entity>
+		<Entity uid="2409">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>2</Player>
+			<Position x="786.12482" z="416.94068"/>
+			<Orientation y="-2.37021"/>
+			<Actor seed="52482"/>
+		</Entity>
+		<Entity uid="2410">
+			<Template>skirmish/units/default_support_citizen</Template>
+			<Player>2</Player>
+			<Position x="781.89124" z="421.37217"/>
+			<Orientation y="-2.53531"/>
+			<Actor seed="20652"/>
+		</Entity>
+		<Entity uid="2411">
+			<Template>structures/merc_camp_blemmye</Template>
+			<Player>0</Player>
+			<Position x="591.719" z="868.83552"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36326"/>
+		</Entity>
+		<Entity uid="2416">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="483.74225" z="120.85752"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15108"/>
+		</Entity>
+		<Entity uid="2417">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="773.85871" z="272.25528"/>
+			<Orientation y="3.83834"/>
+			<Actor seed="15108"/>
+		</Entity>
+		<Entity uid="2418">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="270.41477" z="557.92383"/>
+			<Orientation y="-0.93325"/>
+			<Actor seed="15108"/>
+		</Entity>
+		<Entity uid="2419">
+			<Template>units/kush_merc_camelry_1</Template>
+			<Player>0</Player>
+			<Position x="576.32831" z="859.037"/>
+			<Orientation y="-1.74152"/>
+			<Actor seed="54756"/>
+		</Entity>
+		<Entity uid="2420">
+			<Template>units/kush_merc_camelry_1</Template>
+			<Player>0</Player>
+			<Position x="598.13196" z="853.85376"/>
+			<Orientation y="0.93705"/>
+			<Actor seed="17556"/>
+		</Entity>
+		<Entity uid="2421">
+			<Template>units/kush_merc_camelry_2</Template>
+			<Player>0</Player>
+			<Position x="582.98176" z="852.89881"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="36854"/>
+		</Entity>
+		<Entity uid="2422">
+			<Template>units/kush_merc_camelry_2</Template>
+			<Player>0</Player>
+			<Position x="606.15418" z="859.77002"/>
+			<Orientation y="-0.62346"/>
+			<Actor seed="43786"/>
+		</Entity>
+		<Entity uid="2423">
+			<Template>units/kush_merc_camelry_2</Template>
+			<Player>0</Player>
+			<Position x="579.07245" z="879.49604"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17386"/>
+		</Entity>
+		<Entity uid="2424">
+			<Template>units/kush_merc_camelry_2</Template>
+			<Player>0</Player>
+			<Position x="389.62793" z="865.82569"/>
+			<Orientation y="-2.6627"/>
+			<Actor seed="12368"/>
+		</Entity>
+		<Entity uid="2425">
+			<Template>units/kush_merc_camelry_1</Template>
+			<Player>0</Player>
+			<Position x="399.7204" z="872.68622"/>
+			<Orientation y="1.0356"/>
+			<Actor seed="62738"/>
 		</Entity>
 	</Entities>
 	<Paths/>

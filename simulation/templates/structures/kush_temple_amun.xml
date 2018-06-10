@@ -3,6 +3,9 @@
   <Auras datatype="tokens">
     kush_temple_amun
   </Auras>
+  <BuildRestrictions>
+    <Category>Temple_Amun</Category>
+  </BuildRestrictions>
   <Cost>
     <PopulationBonus>10</PopulationBonus>
     <BuildTime>300</BuildTime>
@@ -26,6 +29,8 @@
     <GenericName>Temple of Amun</GenericName>
     <SpecificName>Pr-‘Imn</SpecificName>
     <Classes datatype="tokens">TempleOfAmun</Classes>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>structures/temple_epic.png</Icon>
   </Identity>
   <Obstruction>
     <Static width="28" depth="56.0"/>
@@ -35,7 +40,8 @@
       units/{civ}_champion_infantry_amun
     </Entities>
     <Technologies datatype="tokens">
-      kushites/upgrade_rank_elite_healer
+      -attack_military_cult
+	  kushites/upgrade_rank_elite_healer
     </Technologies>
   </ProductionQueue>
   <TerritoryInfluence>

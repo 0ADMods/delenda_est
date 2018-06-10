@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="200.809" y="91.6834" z="287.86"/>
+		<Position x="429.244" y="101.56" z="100.417"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "The high peaks and valleys of the Alps.\n\nEach player starts the match nestled in a safe green valley. Between lies the treacherous Alps mountain range.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Alpine Valleys (2)",
@@ -55,7 +54,10 @@
     }
   ],
   "Preview": "alpine_valley_skirmish.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -11344,28 +11346,28 @@
 			<Actor seed="1786"/>
 		</Entity>
 		<Entity uid="2105">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="207.89354" z="394.0782"/>
 			<Orientation y="-2.10215"/>
 			<Actor seed="59740"/>
 		</Entity>
 		<Entity uid="2106">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="212.54012" z="389.27961"/>
 			<Orientation y="-1.93781"/>
 			<Actor seed="10658"/>
 		</Entity>
 		<Entity uid="2107">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="216.35892" z="385.56028"/>
 			<Orientation y="-2.24791"/>
 			<Actor seed="34498"/>
 		</Entity>
 		<Entity uid="2108">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="219.77063" z="382.08204"/>
 			<Orientation y="-1.9682"/>
@@ -11428,28 +11430,28 @@
 			<Actor seed="20148"/>
 		</Entity>
 		<Entity uid="2117">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="794.79792" z="524.68683"/>
 			<Orientation y="-2.08349"/>
 			<Actor seed="7820"/>
 		</Entity>
 		<Entity uid="2118">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="797.77625" z="521.12098"/>
 			<Orientation y="-2.26781"/>
 			<Actor seed="13508"/>
 		</Entity>
 		<Entity uid="2119">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="800.39551" z="518.23218"/>
 			<Orientation y="-2.14881"/>
 			<Actor seed="226"/>
 		</Entity>
 		<Entity uid="2120">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="803.19422" z="515.53675"/>
 			<Orientation y="-1.82798"/>
@@ -12862,14 +12864,14 @@
 			<Actor seed="15734"/>
 		</Entity>
 		<Entity uid="2357">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="281.57392" z="687.32337"/>
 			<Orientation y="-2.51017"/>
 			<Actor seed="54262"/>
 		</Entity>
 		<Entity uid="2358">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="526.83594" z="811.26185"/>
 			<Orientation y="0.56771"/>
@@ -15114,14 +15116,14 @@
 			<Actor seed="3060"/>
 		</Entity>
 		<Entity uid="2803">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="493.7432" z="974.35346"/>
 			<Orientation y="-1.73613"/>
 			<Actor seed="30530"/>
 		</Entity>
 		<Entity uid="2804">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="521.02491" z="647.66376"/>
 			<Orientation y="0.8195"/>
@@ -16471,6 +16473,60 @@
 			<Position x="826.40265" z="578.02942"/>
 			<Orientation y="3.90766"/>
 			<Actor seed="44480"/>
+		</Entity>
+		<Entity uid="3001">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="507.78245" z="784.35456"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34754"/>
+		</Entity>
+		<Entity uid="3002">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="166.01352" z="792.58509"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45002"/>
+		</Entity>
+		<Entity uid="3003">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="826.45905" z="176.79551"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57482"/>
+		</Entity>
+		<Entity uid="3004">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="357.64051" z="95.88991"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26464"/>
+		</Entity>
+		<Entity uid="3005">
+			<Template>actor|particle/blowing_snow.xml</Template>
+			<Position x="905.19373" z="261.44971"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="35420"/>
+		</Entity>
+		<Entity uid="3006">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="656.13526" z="873.2865"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50330"/>
+		</Entity>
+		<Entity uid="3007">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="217.27771" z="722.68848"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="17582"/>
+		</Entity>
+		<Entity uid="3008">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="550.41718" z="375.95667"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41116"/>
+		</Entity>
+		<Entity uid="3009">
+			<Template>actor|particle/snow_mist.xml</Template>
+			<Position x="126.87116" z="661.45575"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46798"/>
 		</Entity>
 	</Entities>
 	<Paths/>

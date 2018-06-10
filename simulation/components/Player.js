@@ -64,6 +64,7 @@ Player.prototype.Init = function()
 	this.startCam = undefined;
 	this.controlAllUnits = false;
 	this.isAI = false;
+	this.timeMultiplier = 1;
 	this.gatherRateMultiplier = 1;
 	this.tradeRateMultiplier = 1;
 	this.cheatsEnabled = false;
@@ -89,7 +90,7 @@ Player.prototype.Init = function()
 		this.resourceCount[res] = 300;
 		this.resourceNames[res] = Resources.GetResource(res).name;
 		this.tradingGoods.push({
-			"goods":  res,
+			"goods": res,
 			"proba": 5 * (quotient + (+i < remainder ? 1 : 0))
 		});
 	}
@@ -223,19 +224,14 @@ Player.prototype.GetBarterMultiplier = function()
 	return this.barterMultiplier;
 };
 
-Player.prototype.SetGatherRateMultiplier = function(value)
-{
-	this.gatherRateMultiplier = value;
-};
-
 Player.prototype.GetGatherRateMultiplier = function()
 {
-	return this.gatherRateMultiplier;
+	return this.gatherRateMultiplier / this.cheatTimeMultiplier;
 };
 
-Player.prototype.SetTradeRateMultiplier = function(value)
+Player.prototype.GetTimeMultiplier = function()
 {
-	this.tradeRateMultiplier = value;
+	return this.timeMultiplier * this.cheatTimeMultiplier;
 };
 
 Player.prototype.GetTradeRateMultiplier = function()
@@ -246,6 +242,26 @@ Player.prototype.GetTradeRateMultiplier = function()
 Player.prototype.GetSpyCostMultiplier = function()
 {
 	return this.spyCostMultiplier;
+};
+
+/**
+ * Setters currently used by the AI to set the difficulty level
+ */
+Player.prototype.SetGatherRateMultiplier = function(value)
+{
+	this.gatherRateMultiplier = value;
+	Engine.BroadcastMessage(MT_MultiplierChanged, { "player": this.playerID, "type": "gather" });
+};
+
+Player.prototype.SetTimeMultiplier = function(value)
+{
+	this.timeMultiplier = value;
+	Engine.BroadcastMessage(MT_MultiplierChanged, { "player": this.playerID, "type": "time" });
+};
+
+Player.prototype.SetTradeRateMultiplier = function(value)
+{
+	this.tradeRateMultiplier = value;
 };
 
 Player.prototype.GetPanelEntities = function()
@@ -832,6 +848,7 @@ Player.prototype.GetCheatsEnabled = function()
 Player.prototype.SetCheatTimeMultiplier = function(time)
 {
 	this.cheatTimeMultiplier = time;
+	Engine.BroadcastMessage(MT_MultiplierChanged, { "player": this.playerID, "type": "cheat" });
 };
 
 Player.prototype.GetCheatTimeMultiplier = function()

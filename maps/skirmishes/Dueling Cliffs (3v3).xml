@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "A foggy alpine landscape becomes a battleground as each team has an ally squashed precariously between two enemies. Two forest cliffs overlook the center lake, accessible from the sides of the map.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": true,
   "Name": "Dueling Cliffs (3v3)",
@@ -139,7 +138,10 @@
     }
   ],
   "Preview": "dueling_cliffs.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -15222,210 +15224,210 @@
 			<Actor seed="44249"/>
 		</Entity>
 		<Entity uid="4228">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1049.31788" z="1358.13721"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38157"/>
 		</Entity>
 		<Entity uid="4229">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1099.5088" z="1307.37476"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17428"/>
 		</Entity>
 		<Entity uid="4230">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1229.74537" z="1243.13147"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="32959"/>
 		</Entity>
 		<Entity uid="4231">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1223.55042" z="1240.30103"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29409"/>
 		</Entity>
 		<Entity uid="4232">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1274.37806" z="1222.65943"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15173"/>
 		</Entity>
 		<Entity uid="4233">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1079.57557" z="1232.90186"/>
 			<Orientation y="-2.88569"/>
 			<Actor seed="13680"/>
 		</Entity>
 		<Entity uid="4234">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1035.95813" z="1134.04944"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="56171"/>
 		</Entity>
 		<Entity uid="4235">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="1068.98462" z="1083.62867"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="16859"/>
 		</Entity>
 		<Entity uid="4236">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="995.10608" z="1016.53266"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48398"/>
 		</Entity>
 		<Entity uid="4237">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="936.17109" z="981.36475"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15962"/>
 		</Entity>
 		<Entity uid="4238">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="901.05079" z="1037.73133"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41639"/>
 		</Entity>
 		<Entity uid="4239">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="887.50666" z="1064.93665"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="54118"/>
 		</Entity>
 		<Entity uid="4240">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="943.96998" z="1109.2627"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="57158"/>
 		</Entity>
 		<Entity uid="4241">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="972.77338" z="1111.99683"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25478"/>
 		</Entity>
 		<Entity uid="4242">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="987.20685" z="916.64478"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39292"/>
 		</Entity>
 		<Entity uid="4243">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="412.76206" z="545.24646"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="34014"/>
 		</Entity>
 		<Entity uid="4244">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="393.43671" z="515.3736"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40835"/>
 		</Entity>
 		<Entity uid="4245">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="422.11365" z="473.25843"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="52751"/>
 		</Entity>
 		<Entity uid="4246">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="442.84208" z="489.45405"/>
 			<Orientation y="0.6666"/>
 			<Actor seed="26639"/>
 		</Entity>
 		<Entity uid="4247">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="495.08851" z="499.02015"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50574"/>
 		</Entity>
 		<Entity uid="4248">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="525.47822" z="392.5662"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50342"/>
 		</Entity>
 		<Entity uid="4249">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="391.96454" z="430.0261"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="2949"/>
 		</Entity>
 		<Entity uid="4250">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="440.69983" z="339.22834"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="24074"/>
 		</Entity>
 		<Entity uid="4251">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="314.78812" z="310.52875"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="13256"/>
 		</Entity>
 		<Entity uid="4252">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="229.59797" z="292.14081"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39030"/>
 		</Entity>
 		<Entity uid="4253">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="183.4654" z="385.18879"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="38894"/>
 		</Entity>
 		<Entity uid="4254">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="312.21845" z="209.5528"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="40182"/>
 		</Entity>
 		<Entity uid="4255">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="417.50895" z="167.63627"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="21336"/>
 		</Entity>
 		<Entity uid="4256">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="464.53779" z="143.03846"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27279"/>
 		</Entity>
 		<Entity uid="4257">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="557.85523" z="132.8714"/>
 			<Orientation y="2.35621"/>
@@ -18197,28 +18199,28 @@
 			<Actor seed="698"/>
 		</Entity>
 		<Entity uid="4658">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="844.41095" z="163.188"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="50702"/>
 		</Entity>
 		<Entity uid="4659">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="848.83881" z="168.88331"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17384"/>
 		</Entity>
 		<Entity uid="4660">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="854.57111" z="175.14701"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61272"/>
 		</Entity>
 		<Entity uid="4661">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="860.172" z="180.29145"/>
 			<Orientation y="2.35621"/>
@@ -18309,56 +18311,56 @@
 			<Actor seed="25830"/>
 		</Entity>
 		<Entity uid="4674">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1347.19166" z="663.48469"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58119"/>
 		</Entity>
 		<Entity uid="4675">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1343.30567" z="661.23536"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22805"/>
 		</Entity>
 		<Entity uid="4676">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1338.07251" z="656.14966"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="36366"/>
 		</Entity>
 		<Entity uid="4677">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="1333.9756" z="651.22736"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58055"/>
 		</Entity>
 		<Entity uid="4678">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="200.3256" z="835.35578"/>
 			<Orientation y="-0.77848"/>
 			<Actor seed="2750"/>
 		</Entity>
 		<Entity uid="4679">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="195.67652" z="830.90204"/>
 			<Orientation y="-0.77848"/>
 			<Actor seed="26557"/>
 		</Entity>
 		<Entity uid="4680">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="190.96967" z="826.86127"/>
 			<Orientation y="-0.77848"/>
 			<Actor seed="59864"/>
 		</Entity>
 		<Entity uid="4681">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="186.36612" z="823.04578"/>
 			<Orientation y="-0.77848"/>
@@ -18407,28 +18409,28 @@
 			<Actor seed="2888"/>
 		</Entity>
 		<Entity uid="4688">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>5</Player>
 			<Position x="450.1792" z="1032.30506"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6198"/>
 		</Entity>
 		<Entity uid="4689">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>5</Player>
 			<Position x="455.87208" z="1038.43592"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="43921"/>
 		</Entity>
 		<Entity uid="4690">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>5</Player>
 			<Position x="461.11597" z="1043.65796"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15338"/>
 		</Entity>
 		<Entity uid="4691">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>5</Player>
 			<Position x="466.90928" z="1049.45728"/>
 			<Orientation y="2.35621"/>
@@ -18477,28 +18479,28 @@
 			<Actor seed="63343"/>
 		</Entity>
 		<Entity uid="4698">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="667.38978" z="1334.90809"/>
 			<Orientation y="-0.8138"/>
 			<Actor seed="40435"/>
 		</Entity>
 		<Entity uid="4699">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="660.63807" z="1328.58057"/>
 			<Orientation y="-0.8138"/>
 			<Actor seed="22143"/>
 		</Entity>
 		<Entity uid="4700">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="655.47577" z="1322.95948"/>
 			<Orientation y="-0.8138"/>
 			<Actor seed="32377"/>
 		</Entity>
 		<Entity uid="4701">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="649.64289" z="1317.42237"/>
 			<Orientation y="-0.8138"/>
@@ -18547,28 +18549,28 @@
 			<Actor seed="3746"/>
 		</Entity>
 		<Entity uid="4708">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>6</Player>
 			<Position x="1076.36683" z="449.70472"/>
 			<Orientation y="-0.78354"/>
 			<Actor seed="18502"/>
 		</Entity>
 		<Entity uid="4709">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>6</Player>
 			<Position x="1070.68543" z="444.06629"/>
 			<Orientation y="-0.78354"/>
 			<Actor seed="26176"/>
 		</Entity>
 		<Entity uid="4710">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>6</Player>
 			<Position x="1065.57081" z="438.9402"/>
 			<Orientation y="-0.78354"/>
 			<Actor seed="52649"/>
 		</Entity>
 		<Entity uid="4711">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>6</Player>
 			<Position x="1060.6615" z="433.49872"/>
 			<Orientation y="-0.78354"/>

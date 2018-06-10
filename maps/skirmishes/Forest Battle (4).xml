@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "A forest battle map where all players fight for supremacy and control over the middle.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Forest Battle (4)",
@@ -61,7 +60,10 @@
     }
   ],
   "Preview": "forest_battle.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -5757,42 +5759,42 @@
 			<Actor seed="45610"/>
 		</Entity>
 		<Entity uid="1171">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="159.80146" z="630.22742"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23788"/>
 		</Entity>
 		<Entity uid="1172">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="158.70373" z="628.84168"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14216"/>
 		</Entity>
 		<Entity uid="1173">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="157.63833" z="627.92231"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1430"/>
 		</Entity>
 		<Entity uid="1175">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="664.96973" z="590.86146"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="1176">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="666.03516" z="591.78083"/>
 			<Orientation y="2.35622"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="1177">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="667.13282" z="593.16657"/>
 			<Orientation y="2.35622"/>
@@ -5848,21 +5850,21 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="1185">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="587.797" z="149.62575"/>
 			<Orientation y="-0.54487"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="1186">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="588.86243" z="150.54513"/>
 			<Orientation y="-0.64943"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="1187">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="589.96009" z="151.93087"/>
 			<Orientation y="-0.73937"/>
@@ -5918,7 +5920,7 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="1196">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="211.01716" z="126.70426"/>
 			<Orientation y="0.825"/>
@@ -6135,7 +6137,7 @@
 			<Actor seed="46180"/>
 		</Entity>
 		<Entity uid="1229">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="113.12829" z="438.99152"/>
 			<Orientation y="2.35621"/>
@@ -12536,28 +12538,28 @@
 			<Actor seed="63986"/>
 		</Entity>
 		<Entity uid="2269">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="713.64795" z="271.31196"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23068"/>
 		</Entity>
 		<Entity uid="2270">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="701.67237" z="267.95414"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="48172"/>
 		</Entity>
 		<Entity uid="2271">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="656.00062" z="415.5"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="62032"/>
 		</Entity>
 		<Entity uid="2272">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="654.59327" z="434.02393"/>
 			<Orientation y="2.35621"/>
@@ -12606,14 +12608,14 @@
 			<Actor seed="20456"/>
 		</Entity>
 		<Entity uid="2279">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="377.31434" z="40.58182"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="39574"/>
 		</Entity>
 		<Entity uid="2280">
-			<Template>gaia/fauna_wolf_snow</Template>
+			<Template>gaia/fauna_arctic_wolf</Template>
 			<Player>0</Player>
 			<Position x="378.75657" z="37.87172"/>
 			<Orientation y="2.35621"/>
@@ -16077,14 +16079,14 @@
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="2847">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="209.96929" z="128.5251"/>
 			<Orientation y="0.825"/>
 			<Actor seed="0"/>
 		</Entity>
 		<Entity uid="2848">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="208.19666" z="130.19581"/>
 			<Orientation y="0.825"/>

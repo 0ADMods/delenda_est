@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="659.739" y="85.4842" z="734.651"/>
+		<Position x="287.166" y="121.316" z="58.9948"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "A large savanna is bisected by a narrow jungle stream.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Savanna River (2)",
@@ -55,7 +54,10 @@
     }
   ],
   "Preview": "savanna_river.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -7568,7 +7570,7 @@
 		<Entity uid="3483">
 			<Template>gaia/flora_tree_baobab</Template>
 			<Player>0</Player>
-			<Position x="330.96244" z="831.37818"/>
+			<Position x="324.52274" z="829.2226"/>
 			<Orientation y="-1.59913"/>
 			<Actor seed="57486"/>
 		</Entity>
@@ -13700,28 +13702,28 @@
 			<Actor seed="14552"/>
 		</Entity>
 		<Entity uid="4449">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="320.79371" z="135.7521"/>
 			<Orientation y="-1.90137"/>
 			<Actor seed="552"/>
 		</Entity>
 		<Entity uid="4450">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="324.99622" z="131.32798"/>
 			<Orientation y="-2.27593"/>
 			<Actor seed="5140"/>
 		</Entity>
 		<Entity uid="4451">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="327.91971" z="127.84766"/>
 			<Orientation y="-2.16547"/>
 			<Actor seed="46968"/>
 		</Entity>
 		<Entity uid="4452">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="331.4404" z="124.5794"/>
 			<Orientation y="-2.5024"/>
@@ -13812,28 +13814,28 @@
 			<Actor seed="14128"/>
 		</Entity>
 		<Entity uid="4465">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="662.47931" z="846.30005"/>
 			<Orientation y="-2.403"/>
 			<Actor seed="44696"/>
 		</Entity>
 		<Entity uid="4466">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="665.83619" z="842.91504"/>
 			<Orientation y="-2.05308"/>
 			<Actor seed="30608"/>
 		</Entity>
 		<Entity uid="4467">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="668.98755" z="840.82288"/>
 			<Orientation y="-2.06092"/>
 			<Actor seed="20168"/>
 		</Entity>
 		<Entity uid="4468">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="671.65497" z="838.1496"/>
 			<Orientation y="-2.24314"/>
@@ -15507,7 +15509,7 @@
 		</Entity>
 		<Entity uid="4745">
 			<Template>actor|geology/stone_savanna_med.xml</Template>
-			<Position x="627.10944" z="777.5055"/>
+			<Position x="637.9651" z="768.34937"/>
 			<Orientation y="-2.52941"/>
 			<Actor seed="8590"/>
 		</Entity>
@@ -16404,6 +16406,34 @@
 			<Position x="616.10633" z="850.64502"/>
 			<Orientation y="0.72181"/>
 			<Actor seed="30772"/>
+		</Entity>
+		<Entity uid="4883">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="622.98865" z="773.90271"/>
+			<Orientation y="-2.55741"/>
+			<Actor seed="30378"/>
+		</Entity>
+		<Entity uid="4884">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="282.53434" z="236.07578"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29942"/>
+		</Entity>
+		<Entity uid="4885">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="801.19251" z="252.6251"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29286"/>
+		</Entity>
+		<Entity uid="4886">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="339.65262" z="835.9737"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="40748"/>
 		</Entity>
 	</Entities>
 	<Paths/>

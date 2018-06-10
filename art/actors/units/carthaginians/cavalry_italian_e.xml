@@ -6,9 +6,17 @@
       <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/carthaginians/cavalry_italian_e_r.xml" attachpoint="rider"/>
-		<prop actor="props/units/horse/crest_1.xml" attachpoint="head"/>
+        <prop actor="props/units/horse/sele_crest.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_armor_kart.xml" attachpoint="root"/>
       </props>
-	  <textures><texture file="skeletal/horse_kart_csp_e_1.dds" name="baseTex"/></textures>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="horse-texture-1">
+      <textures><texture file="skeletal/horse_hele_a_1.dds" name="baseTex"/></textures>
+    </variant>
+    <variant name="horse-texture-2">
+      <textures><texture file="skeletal/horse_hele_a_2.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
@@ -26,10 +34,15 @@
     </variant>
   </group>
   <group>
-    <variant frequency="60" name="Idle"/>
-    <variant name="Run">
+    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_death.xml">
       <props>
-        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_armor_kart.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant file="quadraped/base_horse_run.xml">
+      <props>
+        <prop actor="props/horse/cav_armor_kart.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

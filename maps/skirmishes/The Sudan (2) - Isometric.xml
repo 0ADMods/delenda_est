@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="794.972" y="1373.85" z="-1515.11"/>
+		<Position x="484.956" y="165.59" z="-72.0828"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "South of the Sahara lies an arid region today known as Sudan. Yesterday it was known as Nubia and Eritrea, land of the blacks who guarded their homeland with fanatical devotion.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "The Sudan (2) - Isometric",
@@ -65,7 +64,10 @@
     }
   ],
   "Preview": "the_sudan_2.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -2940,28 +2942,28 @@
 			<Actor seed="18392"/>
 		</Entity>
 		<Entity uid="497">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="249.77891" z="366.16596"/>
 			<Orientation y="-2.66646"/>
 			<Actor seed="16176"/>
 		</Entity>
 		<Entity uid="498">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="252.98041" z="362.79603"/>
 			<Orientation y="-2.25383"/>
 			<Actor seed="39248"/>
 		</Entity>
 		<Entity uid="499">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="255.719" z="359.81803"/>
 			<Orientation y="-2.31708"/>
 			<Actor seed="55258"/>
 		</Entity>
 		<Entity uid="500">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="258.46732" z="357.41657"/>
 			<Orientation y="-2.38753"/>
@@ -3010,28 +3012,28 @@
 			<Actor seed="18392"/>
 		</Entity>
 		<Entity uid="507">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="790.27503" z="412.58423"/>
 			<Orientation y="-2.38753"/>
 			<Actor seed="57430"/>
 		</Entity>
 		<Entity uid="508">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="787.52668" z="414.9857"/>
 			<Orientation y="-2.31708"/>
 			<Actor seed="55258"/>
 		</Entity>
 		<Entity uid="509">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="784.7881" z="417.96369"/>
 			<Orientation y="-2.25383"/>
 			<Actor seed="39248"/>
 		</Entity>
 		<Entity uid="510">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="781.58661" z="421.33362"/>
 			<Orientation y="-2.66646"/>
@@ -4350,33 +4352,6 @@
 			<Position x="916.3354" z="298.57261"/>
 			<Orientation y="-2.21413"/>
 			<Actor seed="59970"/>
-		</Entity>
-		<Entity uid="732">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="275.0811" z="556.19214"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="8152"/>
-		</Entity>
-		<Entity uid="733">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="771.70551" z="272.47654"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="58796"/>
-		</Entity>
-		<Entity uid="734">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="555.14435" z="907.95423"/>
-			<Orientation y="2.35621"/>
-		</Entity>
-		<Entity uid="735">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="483.1884" z="118.33333"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="21196"/>
 		</Entity>
 		<Entity uid="736">
 			<Template>units/kush_merc_infantry_2</Template>
@@ -10983,6 +10958,34 @@
 			<Position x="573.78821" z="910.8755"/>
 			<Orientation y="-1.96221"/>
 			<Actor seed="41148"/>
+		</Entity>
+		<Entity uid="1838">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="482.46311" z="119.81173"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61672"/>
+		</Entity>
+		<Entity uid="1839">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="771.20069" z="270.06388"/>
+			<Orientation y="-0.06598"/>
+			<Actor seed="50810"/>
+		</Entity>
+		<Entity uid="1840">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="273.18833" z="554.61274"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="10274"/>
+		</Entity>
+		<Entity uid="1841">
+			<Template>structures/merc_camp_nuba</Template>
+			<Player>0</Player>
+			<Position x="553.39216" z="911.55835"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="16002"/>
 		</Entity>
 	</Entities>
 	<Paths/>

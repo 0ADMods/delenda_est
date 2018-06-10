@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="281.166" y="79.8468" z="621.893"/>
+		<Position x="314.139" y="75.8081" z="459.766"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,11 +41,11 @@
 {
   "CircularMap": true,
   "Description": "A large oasis acts as the hub of mountainous spokes that divide the home territories of each player.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Median Oasis (2)",
   "PlayerData": [
+    null,
     {
       "Color": {
         "b": 200,
@@ -64,7 +64,10 @@
     }
   ],
   "Preview": "median_oasis_2.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -10619,8 +10622,8 @@
 		<Entity uid="2924">
 			<Template>gaia/flora_tree_cretan_date_palm_patch</Template>
 			<Player>0</Player>
-			<Position x="463.49698" z="730.79902"/>
-			<Orientation y="4.00441"/>
+			<Position x="472.63181" z="743.68335"/>
+			<Orientation y="0.06432"/>
 		</Entity>
 		<Entity uid="2925">
 			<Template>gaia/flora_tree_cretan_date_palm_patch</Template>
@@ -10722,28 +10725,28 @@
 			<Actor seed="54012"/>
 		</Entity>
 		<Entity uid="3064">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="757.23646" z="225.09653"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17750"/>
 		</Entity>
 		<Entity uid="3065">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="759.74976" z="228.07987"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28734"/>
 		</Entity>
 		<Entity uid="3066">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="762.82447" z="231.98227"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37944"/>
 		</Entity>
 		<Entity uid="3067">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="766.3816" z="234.8942"/>
 			<Orientation y="2.35621"/>
@@ -10799,28 +10802,28 @@
 			<Actor seed="58228"/>
 		</Entity>
 		<Entity uid="3094">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="286.49585" z="691.98884"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44224"/>
 		</Entity>
 		<Entity uid="3095">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="289.20075" z="695.68012"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25566"/>
 		</Entity>
 		<Entity uid="3096">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="292.21302" z="697.50422"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14564"/>
 		</Entity>
 		<Entity uid="3097">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="295.45545" z="699.85248"/>
 			<Orientation y="2.35621"/>
@@ -11861,34 +11864,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="60610"/>
 		</Entity>
-		<Entity uid="3270">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="426.78153" z="773.34485"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="2268"/>
-		</Entity>
-		<Entity uid="3271">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="580.37214" z="225.40171"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="24680"/>
-		</Entity>
-		<Entity uid="3272">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="396.55613" z="282.85761"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="39714"/>
-		</Entity>
-		<Entity uid="3273">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="623.74616" z="742.8426"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="15930"/>
-		</Entity>
 		<Entity uid="3274">
 			<Template>gaia/fauna_sheep</Template>
 			<Player>1</Player>
@@ -11930,6 +11905,34 @@
 			<Position x="777.68958" z="273.95835"/>
 			<Orientation y="-2.30851"/>
 			<Actor seed="60564"/>
+		</Entity>
+		<Entity uid="3280">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="423.57291" z="774.58082"/>
+			<Orientation y="-0.03034"/>
+			<Actor seed="62728"/>
+		</Entity>
+		<Entity uid="3282">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="623.53406" z="744.48871"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57394"/>
+		</Entity>
+		<Entity uid="3283">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="577.58228" z="226.31623"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41930"/>
+		</Entity>
+		<Entity uid="3284">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="400.5853" z="284.58912"/>
+			<Orientation y="-2.36686"/>
+			<Actor seed="33390"/>
 		</Entity>
 	</Entities>
 	<Paths/>

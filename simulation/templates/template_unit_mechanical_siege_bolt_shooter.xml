@@ -58,7 +58,6 @@
     <Tooltip>Traits: Slow Speed, Must Pack, Splash Damage (Linear), Capturable.
 Strong Against: Infantry (2x), Cavalry (2x), Buildings (Crush Damage).
 Weak Against: Fast Melee Units.</Tooltip>
-    <RequiredTechnology>unlock_siege_ballistics</RequiredTechnology>
   </Identity>
   <Loot>
     <xp>200</xp>
@@ -78,6 +77,9 @@ Weak Against: Fast Melee Units.</Tooltip>
       </Texture>
     </Overlay>
   </Selectable>
+  <UnitAI>
+    <DefaultStance>standground</DefaultStance>
+  </UnitAI>
   <UnitMotion>
     <WalkSpeed op="mul">1.1</WalkSpeed>
     <Run>

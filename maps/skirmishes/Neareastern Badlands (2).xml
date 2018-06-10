@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="235.136" y="88.8963" z="353.91"/>
+		<Position x="700.394" y="126.077" z="82.8481"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,11 +41,11 @@
 {
   "CircularMap": true,
   "Description": "The 'Cappadocia' region of Central-Eastern Anatolia.\n\nAll players start on the Western end of the map, with a vast unclaimed wilderness lying open before them ripe for conquest and depredation.\n\nStone and Metal resources are in abundance, especially Stone, but Wood is somewhat scarce.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Neareastern Badlands (2)",
   "PlayerData": [
+    null,
     {
       "Name": "Player 1"
     },
@@ -55,7 +55,10 @@
     }
   ],
   "Preview": "neareastern_badlands_1.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -8909,28 +8912,28 @@
 			<Orientation y="2.35621"/>
 		</Entity>
 		<Entity uid="2200">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="196.64705" z="423.64155"/>
 			<Orientation y="-2.59014"/>
 			<Actor seed="14294"/>
 		</Entity>
 		<Entity uid="2201">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="201.86881" z="417.75242"/>
 			<Orientation y="-1.9037"/>
 			<Actor seed="37106"/>
 		</Entity>
 		<Entity uid="2202">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="204.90331" z="414.71305"/>
 			<Orientation y="-1.74326"/>
 			<Actor seed="43998"/>
 		</Entity>
 		<Entity uid="2203">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="208.7536" z="411.4336"/>
 			<Orientation y="-1.85193"/>
@@ -9020,28 +9023,28 @@
 			<Actor seed="56130"/>
 		</Entity>
 		<Entity uid="2216">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="486.67396" z="160.55707"/>
 			<Orientation y="-2.44942"/>
 			<Actor seed="37888"/>
 		</Entity>
 		<Entity uid="2217">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="490.00721" z="156.94545"/>
 			<Orientation y="-1.65412"/>
 			<Actor seed="27854"/>
 		</Entity>
 		<Entity uid="2218">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="492.83335" z="153.67315"/>
 			<Orientation y="-2.38752"/>
 			<Actor seed="53614"/>
 		</Entity>
 		<Entity uid="2219">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="496.07587" z="150.4236"/>
 			<Orientation y="-2.30423"/>
@@ -10130,13 +10133,6 @@
 			<Orientation y="2.35621"/>
 			<Actor seed="28740"/>
 		</Entity>
-		<Entity uid="3295">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="748.38642" z="724.19147"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="27630"/>
-		</Entity>
 		<Entity uid="3296">
 			<Template>skirmish/structures/default_stoa</Template>
 			<Player>1</Player>
@@ -10150,6 +10146,13 @@
 			<Position x="245.69889" z="462.38343"/>
 			<Orientation y="-2.30903"/>
 			<Actor seed="3934"/>
+		</Entity>
+		<Entity uid="3298">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="748.1886" z="727.06543"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="39690"/>
 		</Entity>
 	</Entities>
 	<Paths/>

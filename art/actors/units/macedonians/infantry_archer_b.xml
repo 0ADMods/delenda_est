@@ -9,7 +9,7 @@
         <prop actor="props/units/heads/new/head_hele_b.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/arrow_back.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/weapons/bow_short.xml" attachpoint="weapon_L"/>
-        <prop actor="props/temp/quiver.xml" attachpoint="back"/>
+        <prop actor="props/units/quiver_greek_back.xml" attachpoint="back"/>
       </props>
       <textures><texture file="skeletal/hele_tunic.dds" name="baseTex"/></textures>
     </variant>
@@ -34,11 +34,7 @@
     <variant file="biped/carry_wood.xml"/>
     <variant file="biped/carry_stone.xml"/>
     <variant file="biped/carry_metal.xml"/>
-    <variant file="biped/death_infantry.xml">
-      <props>
-        <prop actor="props/units/blood_01.xml" attachpoint="root"/>
-      </props>
-	</variant>
+    <variant file="biped/death_infantry.xml"/>
   </group>
   <material>player_trans.xml</material>
 </actor>

@@ -21,6 +21,11 @@
           <Multiplier>0.75</Multiplier>
         </NerfSiege>
       </Bonuses>
+      <RangeOverlay>
+        <LineTexture>outline_border.png</LineTexture>
+        <LineTextureMask>outline_border_mask.png</LineTextureMask>
+        <LineThickness>0.175</LineThickness>
+      </RangeOverlay>
     </Ranged>
   </Attack>
   <BuildingAI>
@@ -112,7 +117,7 @@
         <stone>100</stone>
 		<wood>0</wood>
       </Cost>
-      <Time>30</Time>
+      <Time>20</Time>
     </Tower>
   </Upgrade>
   <Vision>

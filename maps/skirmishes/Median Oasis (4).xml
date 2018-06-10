@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="259.749" y="90.5684" z="531.488"/>
+		<Position x="453.725" y="100.402" z="676.266"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "A large oasis acts as the hub of mountainous spokes that divide the home territories of each player.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Median Oasis (4)",
@@ -81,7 +80,10 @@
     }
   ],
   "Preview": "median_oasis_1.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -8822,8 +8824,8 @@
 		</Entity>
 		<Entity uid="2114">
 			<Template>actor|props/flora/plant_desert_a.xml</Template>
-			<Position x="155.77274" z="195.74805"/>
-			<Orientation y="-2.60448"/>
+			<Position x="181.61405" z="208.82395"/>
+			<Orientation y="-0.88913"/>
 		</Entity>
 		<Entity uid="2115">
 			<Template>actor|props/flora/plant_desert_a.xml</Template>
@@ -11192,7 +11194,7 @@
 		</Entity>
 		<Entity uid="2592">
 			<Template>actor|props/flora/plant_desert_a.xml</Template>
-			<Position x="181.48865" z="213.41697"/>
+			<Position x="177.58481" z="208.12433"/>
 			<Orientation y="-2.3667"/>
 		</Entity>
 		<Entity uid="2593">
@@ -12011,28 +12013,28 @@
 			<Actor seed="59612"/>
 		</Entity>
 		<Entity uid="3037">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="155.73401" z="499.43659"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="12616"/>
 		</Entity>
 		<Entity uid="3038">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="158.12662" z="501.69541"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="6826"/>
 		</Entity>
 		<Entity uid="3039">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="160.54062" z="504.08155"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="49860"/>
 		</Entity>
 		<Entity uid="3040">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="163.8235" z="506.63157"/>
 			<Orientation y="2.35621"/>
@@ -12193,56 +12195,56 @@
 			<Actor seed="10830"/>
 		</Entity>
 		<Entity uid="3064">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="515.20337" z="133.57041"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="17750"/>
 		</Entity>
 		<Entity uid="3065">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="517.71662" z="136.55375"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="28734"/>
 		</Entity>
 		<Entity uid="3066">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="520.79133" z="140.45618"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="37944"/>
 		</Entity>
 		<Entity uid="3067">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="524.34852" z="143.36811"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="61456"/>
 		</Entity>
 		<Entity uid="3068">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="880.0387" z="489.27369"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="58266"/>
 		</Entity>
 		<Entity uid="3069">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="882.98981" z="492.29468"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="22688"/>
 		</Entity>
 		<Entity uid="3070">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="885.26264" z="494.64133"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="23552"/>
 		</Entity>
 		<Entity uid="3071">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="888.13154" z="497.81293"/>
 			<Orientation y="2.35621"/>
@@ -12368,28 +12370,28 @@
 			<Actor seed="6916"/>
 		</Entity>
 		<Entity uid="3094">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="528.42621" z="850.06952"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="44224"/>
 		</Entity>
 		<Entity uid="3095">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="530.70032" z="852.20124"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="25566"/>
 		</Entity>
 		<Entity uid="3096">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="533.07636" z="854.51337"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="14564"/>
 		</Entity>
 		<Entity uid="3097">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="535.54389" z="856.91285"/>
 			<Orientation y="2.35621"/>
@@ -12833,34 +12835,6 @@
 			<Orientation y="2.35622"/>
 			<Actor seed="36392"/>
 		</Entity>
-		<Entity uid="3164">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="253.47318" z="633.1645"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="19368"/>
-		</Entity>
-		<Entity uid="3165">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="627.76258" z="745.98792"/>
-			<Orientation y="-2.3423"/>
-			<Actor seed="16274"/>
-		</Entity>
-		<Entity uid="3166">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="719.3885" z="402.06855"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="59582"/>
-		</Entity>
-		<Entity uid="3167">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="343.22019" z="275.48853"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="61150"/>
-		</Entity>
 		<Entity uid="3168">
 			<Template>gaia/flora_grove_palm_desert_01</Template>
 			<Player>0</Player>
@@ -13056,6 +13030,34 @@
 			<Position x="897.35962" z="542.41749"/>
 			<Orientation y="-2.36362"/>
 			<Actor seed="19098"/>
+		</Entity>
+		<Entity uid="3210">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="629.87897" z="746.69593"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46104"/>
+		</Entity>
+		<Entity uid="3211">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="730.63483" z="404.87156"/>
+			<Orientation y="-2.30346"/>
+			<Actor seed="56246"/>
+		</Entity>
+		<Entity uid="3212">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="261.56803" z="634.7378"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63098"/>
+		</Entity>
+		<Entity uid="3213">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="379.88859" z="265.71833"/>
+			<Orientation y="-0.41511"/>
+			<Actor seed="60292"/>
 		</Entity>
 	</Entities>
 	<Paths/>

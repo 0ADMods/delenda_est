@@ -76,8 +76,8 @@
 	  pair_heal_01
       pair_heal_02
       pair_heal_03
-	  pair_temple_imperial
-	  trickle_glory_01
+	  attack_military_cult
+	  health_state_religion
     </Technologies>
   </ProductionQueue>
   <TerritoryDecay>

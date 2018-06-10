@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "A map to help copy and paste Iberian Skirmish Walls.",
-  "GameType": "endless",
   "Keywords": [
     "demo"
   ],
@@ -83,7 +82,10 @@
     }
   ],
   "Preview": "",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "endless"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>

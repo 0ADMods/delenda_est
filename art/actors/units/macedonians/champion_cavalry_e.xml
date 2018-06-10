@@ -6,7 +6,8 @@
       <mesh>skeletal/horse.dae</mesh>
       <props>
         <prop actor="units/macedonians/champion_cavalry_e_r.xml" attachpoint="rider"/>
-        <prop actor="props/units/horse_back_blanket_cavalry.xml" attachpoint="rider"/>
+        <prop actor="props/horse/cav_blanket_mace.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_rein_spearman.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
@@ -69,10 +70,15 @@
     </variant>
   </group>
   <group>
-    <variant frequency="60" name="Idle"/>
-    <variant name="Run">
+    <variant frequency="1" name="Idle"/>
+    <variant file="quadraped/base_horse_death.xml" name="Spearman Horse">
       <props>
-        <prop actor="particle/dust_cav.xml" attachpoint="root"/>
+        <prop actor="props/horse/cav_blanket_mace.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant file="quadraped/base_horse_run.xml" name="Spearman Horse">
+      <props>
+        <prop actor="props/horse/cav_blanket_mace.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>

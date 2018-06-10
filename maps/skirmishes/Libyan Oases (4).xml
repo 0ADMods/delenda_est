@@ -3,15 +3,15 @@
 <Scenario version="6">
 	<Environment>
 		<SkySet>cloudless</SkySet>
-		<SunColor r="0.753676" g="0.730699" b="0.606618"/>
+		<SunColor r="0.752941" g="0.729412" b="0.603922"/>
 		<SunElevation angle="0.738132"/>
 		<SunRotation angle="1.18727"/>
-		<TerrainAmbientColor r="0.290196" g="0.360784" b="0.509804"/>
+		<TerrainAmbientColor r="0.286275" g="0.356863" b="0.509804"/>
 		<UnitsAmbientColor r="0.439216" g="0.439216" b="0.439216"/>
 		<Fog>
 			<FogFactor>0.00288086</FogFactor>
 			<FogThickness>0.114746</FogThickness>
-			<FogColor r="0.882353" g="0.870588" b="0.784314"/>
+			<FogColor r="0.882353" g="0.866667" b="0.784314"/>
 		</Fog>
 		<Water>
 			<WaterBody>
@@ -33,7 +33,7 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="332.869" y="72.7876" z="865.763"/>
+		<Position x="537.1" y="87.5048" z="470.967"/>
 		<Rotation angle="0"/>
 		<Declination angle="0.610865"/>
 	</Camera>
@@ -41,7 +41,6 @@
 {
   "CircularMap": true,
   "Description": "An otherwise wide-open, flat desert map is pierced in the center by two lush oases.\n\nThis represents the Libyan Desert, part of the Saharan Desert, West of the Nile River in Egypt.",
-  "GameType": "conquest_civic_centers",
   "Keywords": [],
   "LockTeams": false,
   "Name": "Libyan Oases (4)",
@@ -105,7 +104,10 @@
     }
   ],
   "Preview": "oasis_4.png",
-  "RevealMap": false
+  "RevealMap": false,
+  "VictoryConditions": [
+    "conquest_civic_centers"
+  ]
 }
 ]]></ScriptSettings>
 	<Entities>
@@ -8976,112 +8978,112 @@
 			<Actor seed="50726"/>
 		</Entity>
 		<Entity uid="3011">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="332.73761" z="938.8216"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="19520"/>
 		</Entity>
 		<Entity uid="3012">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="335.94675" z="941.70502"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="29580"/>
 		</Entity>
 		<Entity uid="3013">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="338.93622" z="944.81379"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="27940"/>
 		</Entity>
 		<Entity uid="3014">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>1</Player>
 			<Position x="342.31553" z="948.04706"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="15312"/>
 		</Entity>
 		<Entity uid="3015">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="948.33954" z="251.95636"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65485"/>
 		</Entity>
 		<Entity uid="3016">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="951.05091" z="254.88715"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="31924"/>
 		</Entity>
 		<Entity uid="3017">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="953.82923" z="257.9579"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8390"/>
 		</Entity>
 		<Entity uid="3018">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>2</Player>
 			<Position x="956.85853" z="261.30604"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="1048"/>
 		</Entity>
 		<Entity uid="3019">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="314.55353" z="298.8797"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="65090"/>
 		</Entity>
 		<Entity uid="3020">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="317.43906" z="302.33957"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="11616"/>
 		</Entity>
 		<Entity uid="3021">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="320.64805" z="305.3567"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="41728"/>
 		</Entity>
 		<Entity uid="3022">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>3</Player>
 			<Position x="323.96866" z="308.48615"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="30604"/>
 		</Entity>
 		<Entity uid="3023">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="991.49677" z="954.16498"/>
 			<Orientation y="2.44689"/>
 			<Actor seed="7816"/>
 		</Entity>
 		<Entity uid="3024">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="994.02063" z="956.5746"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="60702"/>
 		</Entity>
 		<Entity uid="3025">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="996.4668" z="959.11353"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="8862"/>
 		</Entity>
 		<Entity uid="3026">
-			<Template>skirmish/units/default_support_citizen_female</Template>
+			<Template>skirmish/units/default_support_citizen</Template>
 			<Player>4</Player>
 			<Position x="999.46241" z="962.04383"/>
 			<Orientation y="2.35621"/>
@@ -11455,34 +11457,6 @@
 			<Orientation y="0.18998"/>
 			<Actor seed="25928"/>
 		</Entity>
-		<Entity uid="5771">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="436.29786" z="202.4036"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="4376"/>
-		</Entity>
-		<Entity uid="5772">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="1019.1764" z="424.22468"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="25880"/>
-		</Entity>
-		<Entity uid="5773">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="819.98731" z="1016.0951"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="53068"/>
-		</Entity>
-		<Entity uid="5774">
-			<Template>structures/merc_camp_egyptian</Template>
-			<Player>0</Player>
-			<Position x="237.8808" z="837.24561"/>
-			<Orientation y="2.35621"/>
-			<Actor seed="35832"/>
-		</Entity>
 		<Entity uid="5775">
 			<Template>structures/merc_camp_egyptian</Template>
 			<Player>0</Player>
@@ -11525,6 +11499,34 @@
 			<Position x="270.98121" z="294.90754"/>
 			<Orientation y="0.76084"/>
 			<Actor seed="50564"/>
+		</Entity>
+		<Entity uid="5781">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="232.57322" z="829.33594"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3018"/>
+		</Entity>
+		<Entity uid="5782">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="821.16053" z="1014.1161"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29010"/>
+		</Entity>
+		<Entity uid="5785">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="431.55802" z="201.42002"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38380"/>
+		</Entity>
+		<Entity uid="5786">
+			<Template>structures/merc_camp_desert</Template>
+			<Player>0</Player>
+			<Position x="1030.48304" z="420.50583"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="24108"/>
 		</Entity>
 	</Entities>
 	<Paths/>

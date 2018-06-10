@@ -2,11 +2,12 @@
 <Entity parent="template_unit_mechanical_ship_fishing">
   <Identity>
     <Civ>kush</Civ>
-    <SpecificName>Fighing Boat</SpecificName>
+    <GenericName>Fishing Boat</GenericName>
+    <SpecificName>Wh’-rmw</SpecificName>
     <History>Need History</History>
     <Icon>units/ptol_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>structures/ptolemies/fishing_boat.xml</Actor>
+    <Actor>structures/kushites/fishing_boat.xml</Actor>
   </VisualActor>
 </Entity>

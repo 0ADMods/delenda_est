@@ -2,59 +2,70 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant file="biped/base_cavalry_2_handed_spearman_ready.xml" frequency="100" name="Base">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
+        <prop actor="props/units/helmets/chin_cap.xml" attachpoint="helmet"/>
         <prop actor="props/units/heads/head_china.xml" attachpoint="head"/>
         <prop actor="props/units/weapons/chin_ji.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="cap-var">
+    <variant frequency="1" name="open_helmet">
       <props>
-        <prop actor="props/units/helmets/chin_cap.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/chin_hairbun.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/chin_advanced_melee_helmet.xml" attachpoint="helmet"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="feather_helmet">
+      <props>
+        <prop actor="props/units/helmets/chin_heavy_helmet_b.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="A">
+    <variant frequency="1" name="chin-spearman-elite-b">
       <textures>
-        <texture file="skeletal/han_isw_e_norm.png" name="normTex"/>
-        <texture file="skeletal/han_isw_e.png" name="baseTex"/>
-        <texture file="skeletal/han_isw_e_spec.png" name="specTex"/> 				
+        <texture file="skeletal/han_isp_e_b.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_b_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="B">
+    <variant frequency="1" name="chin-spearman-elite-c">
       <textures>
-        <texture file="skeletal/han_icr_e.png" name="baseTex"/>
-        <texture file="skeletal/han_icr_e_norm.png" name="normTex"/>
-        <texture file="skeletal/han_icr_e_spec.png" name="specTex"/> 
+        <texture file="skeletal/han_isp_e_c.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_c_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="C">
+    <variant frequency="1" name="chin-spearman-elite-d">
       <textures>
-        <texture file="skeletal/han_isp_e_norm.png" name="normTex"/>
-        <texture file="skeletal/han_isp_e_black.png" name="baseTex"/>
-        <texture file="skeletal/han_isp_e_spec.png" name="specTex"/> 			
+        <texture file="skeletal/han_isp_e_d.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_d_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chin-spearman-elite-e">
+      <textures>
+        <texture file="skeletal/han_isp_e_e.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_e_spec.png" name="specTex"/>
+      </textures>
+    </variant>
+    <variant frequency="1" name="chin-spearman-elite-f">
+      <textures>
+        <texture file="skeletal/han_isp_e_f.png" name="baseTex"/>
+        <texture file="skeletal/han_isp_e_f_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant frequency="100" name="Idle"/>
-    <variant file="biped/rider_promotion.xml" name="promotion"/>
-    <variant file="biped/attack_slaughter_spear_cavalry.xml" name="attack_slaughter"/>
-    <variant name="gather_meat">
-      <props>
-        <prop actor="props/units/weapons/spartan_sword.xml" attachpoint="weapon_R"/>
-      </props>
-    </variant>
-    <variant name="carry_meat">
-      <props>
-        <prop actor="props/units/shuttle_meat_male_R.xml" attachpoint="weapon_R"/>
-        <prop attachpoint="shield"/>
-      </props>
-    </variant>
+    <variant file="biped/base_cavalry_spearman_ready.xml"/>
+    <variant file="biped/rider/carry_meat.xml"/>
   </group>
-  <material>player_trans_parallax_spec.xml</material>
+  <group>
+    <variant frequency="1" name="Idle"/>
+    <variant file="biped/rider/promotion.xml"/>
+    <variant file="biped/rider/attack_slaughter_hele.xml"/>
+    <variant file="biped/gather_meat.xml"/>
+    <variant file="biped/rider/death.xml"/>
+  </group>
+  <material>player_trans_spec.xml</material>
 </actor>

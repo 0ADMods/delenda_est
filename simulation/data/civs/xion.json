@@ -1,0 +1,131 @@
+{
+	"Name": "Xiongnu",
+	"Code": "xion",
+	"Culture":[ "nomadic" ],
+	"Region":[ "asia", "steppes" ],
+	
+	"Emblem": "session/portraits/emblems/emblem_xiongnu.png",
+	
+	"History": "The Xiongnu are a nomadic faction with cheap, weak buildings which can be packed and moved to new areas. Their Women are capable hunters and part-time soldiers, and their Men are strong raiders and looters and full-time warriors.",
+	"Music":[
+		{"File":"Eastern_Thought.ogg", "Type":"peace"},
+		{"File":"Asian_Drums.ogg", "Type":"peace"},
+		{"File":"Opium.ogg", "Type":"peace"},
+		{"File":"Ripples.ogg", "Type":"peace"}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Nomads Tribes",
+			"History": "Xiongnu were nomadic pastoral people.",
+			"Description": "Ignore phase requirements."
+		},
+		{
+			"Name": "Parthian Tactics",
+			"History": "Xiongnu practiced the parthian shot tactics.",
+			"Description": "-15% ranged cavalry tech cost.."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "Horse Breeding",
+			"History": "The Xiongnu were pastoral nomadic people wandering in search of grazing lands for their herds of horses.",
+			"Description": "Cavalry is 15% cheaper."
+		}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Xiongnu",
+			"Description": "",
+			"Technologies":
+			[
+			],
+			"Heroes":
+			[
+			] 
+		} 
+	],
+	"Structures":
+	[
+		{
+			"Name": "Corral",
+			"Class": "",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		}
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/xion_civil_centre",
+			"Count": 1
+		},
+		{
+			"Template": "units/xion_support_wagon",
+			"Count": 1
+		},
+		{
+			"Template": "units/xion_support_citizen_female",
+			"Count": 4
+		},
+		{
+			"Template": "units/xion_cavalry_archer_b",
+			"Count": 1
+		},
+		{
+			"Template": "units/xion_infantry_archer_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/xion_infantry_spearman_b",
+			"Count": 2
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/line_closed",
+		"special/formations/line_open",
+		"special/formations/column_closed",
+		"special/formations/wedge"
+	],
+	"AINames":
+	[
+		"Màodùn",
+		"Tóumàn",
+		"Lǎoshàng"
+	],
+		"SkirmishReplacements":
+	{	
+		"skirmish/units/default_support_female_citizen" : "units/xion_support_citizen_female",
+		"skirmish/units/default_support_citizen" : "units/xion_support_citizen_female",
+		"skirmish/units/default_cavalry": "units/xion_cavalry_archer_b",
+		"skirmish/units/default_infantry_ranged_b": "units/xion_infantry_archer_b",
+		"skirmish/structures/default_corral": "structures/xion_stable",
+		"skirmish/structures/default_defense_tower": "",
+		"skirmish/structures/default_fortress": "",
+		"skirmish/structures/default_house_5": "structures/xion_house_unpacked",
+		"skirmish/structures/default_house_10": "",
+		"skirmish/structures/default_wall_tower": "",
+		"skirmish/structures/default_wall_gate": "",
+		"skirmish/structures/default_wall_short": "",
+		"skirmish/structures/default_wall_medium": "",
+		"skirmish/structures/default_wall_long": "",
+		"skirmish/structures/default_field": "",
+		"skirmish/structures/default_farmstead": "structures/xion_market",
+		"skirmish/structures/default_market": "structures/xion_market",
+		"skirmish/structures/default_storehouse": "structures/xion_storehouse",
+		"skirmish/structures/default_dock": "",
+		"skirmish/units/special_starting_unit": "units/xion_support_wagon",
+		"skirmish/structures/default_civil_centre": "structures/xion_civil_centre",
+		"skirmish/structures/default_barracks": "structures/xion_barracks",
+		"skirmish/structures/default_stable": "structures/xion_stable",
+		"skirmish/structures/default_temple": "structures/xion_temple"
+	},
+	"SelectableInGameSetup": true
+}

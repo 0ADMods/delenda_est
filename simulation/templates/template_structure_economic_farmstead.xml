@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_economic">
   <AlertRaiser>
-    <MaximumLevel>1</MaximumLevel>
-    <Range>40</Range>
+    <List datatype="tokens">Civilian</List>
+    <RaiseAlertRange>40</RaiseAlertRange>
+    <EndOfAlertRange>80</EndOfAlertRange>
+    <SearchRange>100</SearchRange>
   </AlertRaiser>
   <BuildRestrictions>
     <Territory>own neutral</Territory>
@@ -22,7 +24,7 @@
     <Max>10</Max>
     <EjectHealth>0.1</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">Unit</EjectClassesOnDestroy>
-    <List datatype="tokens">Slave Minister</List>
+    <List datatype="tokens">Slave Minister Civilian+Citizen</List>
     <BuffHeal>1</BuffHeal>
     <LoadingRange>2</LoadingRange>
   </GarrisonHolder>
@@ -51,7 +53,7 @@
   <ProductionQueue>
     <BatchTimeModifier>0.7</BatchTimeModifier>
 	<Entities datatype="tokens">
-	  units/{civ}_support_slave_female
+	  units/{civ}_support_slave
     </Entities>
     <Technologies datatype="tokens">
       pair_gather_food_01

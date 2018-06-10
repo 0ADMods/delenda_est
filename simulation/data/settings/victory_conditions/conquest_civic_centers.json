@@ -3,13 +3,15 @@
 	"Data":
 	{
 		"Title": "Domination",
-		"Description": "Dominate the enemy by destroying or capturing all of their Civic Centers.",
+		"Description": "Destroy or capture all enemy Civic Centers.",
 		"Scripts":
 		[
 			"scripts/TriggerHelper.js",
 			"scripts/ConquestCommon.js",
 			"scripts/ConquestCivicCenters.js"
 		],
-		"Default": true
+        "DisabledWhenChecked": ["conquest"],
+		"Default": true,
+        "GUIOrder": 0
 	}
 }
